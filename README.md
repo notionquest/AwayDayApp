@@ -52,6 +52,8 @@
 
 ![Image of Organize for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/AwayDayApp_Output_for_five_teams.JPG)
 
+__The output file location will be same as input with "_output" added to the end of the file name__
+
 ![Image of File Output for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/AwayDayApp_File_output_for_five_teams.JPG)
 
 
