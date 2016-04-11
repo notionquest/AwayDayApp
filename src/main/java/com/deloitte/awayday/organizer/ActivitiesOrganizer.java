@@ -5,6 +5,12 @@ import java.util.List;
 
 import com.deloitte.awayday.exception.AwayDayException;
 
+/**
+ * Away Day Activities Organizer to organize the activities 
+ * 
+ * @author Sampath
+ *
+ */
 public abstract class ActivitiesOrganizer {
 
 	protected List<String> activityScheduleList = new ArrayList<>();

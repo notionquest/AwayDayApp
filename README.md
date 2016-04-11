@@ -1,6 +1,18 @@
 # AwayDayApp
 ### AwayDayApp to organize the activities for teams
 
+#####Assumptions:
+1. Team size is assumed to be between 1 and 5
+
+#####Design:
+1. IOperation          - Interface to handle all IO operations
+2. ActivitiesOrganizer - To organize the activities for a team. Template Design Pattern is used.
+	                 Activities are divided into four : morning, lunch, afternoon and staff motivation
+3. BaseActivity        - All the activities present in the input file are loaded to List
+                         Based on the mins (60, 45. 40, 30 and 15 mins), the child classes will give an activity randomly within the range of the list size
+		         The same activitiy will not be scheduled twice for a team as well
+4. FileOperation       - To write to console and file
+
 #####To compile and package the AwayDay application:
 
     mvn clean compile assembly:single
@@ -46,6 +58,18 @@
 #####Classes:
 1. AwayDayApp - Main application class
 2. BaseActivity - Base class to select the activity randomly
+3. SixtyMinutesActivity - Get the 1 hour activity randomly
+4. FourtyFiveMinutesActivity - Get the 45mins activity randomly
+5. FourtyMinutesActivity - Get the 40mins activity randomly
+6. ThirtyMinutesActivity - Get the 30mins activity randomly
+7. FifteenMinutesActivity - Get the 15mins activity randomly
+8. AwayDayException - AwayDay Exception 
+9. ActivitiesOrganizer - Base class to organize the activities based on timing 
+10. AwayDayActivitiesOrganizer - Organize the activities based on timing (morning, afternoon)
+11. IService - AwayDay service interface
+12. AwayDayService - AwayDay Service to organize the activities for various teams
+13. IOperation - Interface for IO operations
+14. FileOperation - Handles IO operations
 
 
 #####Technology Stack:

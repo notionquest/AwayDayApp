@@ -15,8 +15,21 @@ import com.deloitte.awayday.constants.IAwayDayConstants;
 import com.deloitte.awayday.domain.TeamSchedule;
 import com.deloitte.awayday.exception.AwayDayException;
 
+/**
+ * Handles IO operations
+ * 
+ * @author Sampath
+ *
+ */
 public class FileOperation implements IOperation {
 
+	/**
+	 * Produce a {@link List<String>} instance from filePath
+	 * 
+	 * @param filePath
+	 *            Location of the file
+	 * @return List<String> instance
+	 */
 	@Override
 	public List<String> readFile(String filePath) throws AwayDayException {
 
@@ -46,6 +59,13 @@ public class FileOperation implements IOperation {
 		return true;
 	}
 
+	/**
+	 * Produce a {@link List<String>} instance from teamScheduleList
+	 * 
+	 * @param teamScheduleList
+	 *            List of team schedules
+	 * @return List<String> instance
+	 */
 	@Override
 	public List<String> writeToConsole(List<TeamSchedule> teamScheduleList) throws AwayDayException {
 
@@ -56,6 +76,15 @@ public class FileOperation implements IOperation {
 		return outputToConsole;
 	}
 
+	/**
+	 * Produce a {@link List<String>} instance from teamScheduleList
+	 * 
+	 * @param teamScheduleList
+	 *            List of team schedules
+	 * @param outputFile
+	 *            Location of the output file
+	 * @return List<String> instance
+	 */
 	@Override
 	public List<String> writeToFile(List<TeamSchedule> teamScheduleList, String outputFile) throws AwayDayException {
 		List<String> outputToConsole = convertToPrintableFormat(teamScheduleList);

@@ -10,7 +10,7 @@ import com.deloitte.awayday.io.IOperation;
 import com.deloitte.awayday.organizer.AwayDayActivitiesOrganizer;
 
 /**
- * Away Day Service to schedule the activities for the team
+ * Away Day Service to schedule the activities for various teams
  * 
  * @author Sampath
  *
