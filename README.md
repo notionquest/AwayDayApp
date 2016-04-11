@@ -6,12 +6,15 @@
 
 #####Design:
 1. IOperation          - Interface to handle all IO operations
-2. ActivitiesOrganizer - To organize the activities for a team. Template Design Pattern is used.
+2. FileOperation       - To write to console and file
+3. ActivitiesOrganizer - To organize the activities for a team. Template Design Pattern is used.
 	                 Activities are divided into four : morning, lunch, afternoon and staff motivation
-3. BaseActivity        - All the activities present in the input file are loaded to List
+4. BaseActivity        - All the activities present in the input file are loaded to List
                          Based on the mins (60, 45. 40, 30 and 15 mins), the child classes will give an activity randomly within the range of the list size
 		         The same activitiy will not be scheduled twice for a team as well
-4. FileOperation       - To write to console and file
+5. IService            - Interface to the service
+6. AwayDayService      - The whole functionality is exposed as service to client application/programs   
+
 
 #####To compile and package the AwayDay application:
 
