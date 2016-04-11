@@ -28,19 +28,19 @@
     
 #####Sample Outputs:
 
-#######Organize the activities for two teams and print the output to console:
+**Organize the activities for two teams and print the output to console:**
 
     java -jar target/AwayDayApp-jar-with-dependencies.jar D:\temp\AwayDayApp\activities.txt 2 c
 
 ![Image of Organize for two teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/AwayDayApp_Output_for_two_teams.JPG)
 
-#######Organize the activities for five teams and write the output to file:
+**Organize the activities for five teams and write the output to file:**
 
     java -jar target/AwayDayApp-jar-with-dependencies.jar D:\temp\AwayDayApp\activities.txt 5 w
 
 ![Image of Organize for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/AwayDayApp_Output_for_five_teams.JPG)
 
-[GitHub](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/activities_output.txt)
+[Team activities output for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/activities_output.txt)
 
 
 #####Classes:
