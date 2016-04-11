@@ -40,7 +40,7 @@
 
 ![Image of Organize for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/AwayDayApp_Output_for_five_teams.JPG)
 
-[Team activities output for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/activities_output.txt)
+![Image of File Output for five teams](https://github.com/notionquest/ProjectDocumentation/blob/master/Images/AwayDayApp_File_output_for_five_teams.JPG)
 
 
 #####Classes:
